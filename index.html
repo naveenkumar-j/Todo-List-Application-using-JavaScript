@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css" integrity="sha384-z4tVnCr80ZcL0iufVdGQSUzNvJsKjEtqYZjiQrrYKlpGow+btDHDfQWkFjoaz/Zr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+    <link href="icon.png" rel="icon">
+    <title>Task List</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-wrapper green">
+          <a href="#" class="brand-logo">Todo List Application</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="https://github.com/naveenkumar-j" target="_blank">Source code</a></li>
+            <li><a href="https://www.linkedin.com/in/naveenkumar-j-610147174/" target="_blank">Developer details</a></li>
+          </ul>
+        </div>
+      </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col s12">
+                <div id="main" class="card">
+                    <div class="card-content">
+                        <span class="card-title">Task List</span>
+                        <div class="row">
+                            <form id="task-form">
+                                <div class="input-field col s12">
+                                    <input type="text" name="task" id="task">
+                                    <label for="task">New Task</label>
+                                </div>
+                                <input type="submit" value="Add Task" class="btn">
+                            </form>
+                        </div>
+                    </div>
+                    <div class="card-action">
+                        <h5 id="task-title">Tasks</h5>
+                        <div class="input-field col s12">
+                            <input type="text" name="filter" id="filter">
+                            <label for="filter">Filter Tasks</label>
+                        </div>
+                        <ul class="collection"></ul>
+                        <a href="#" class="clear-tasks btn black">Clear Tasks</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Define the footer -->
+  <footer class="page-footer green">
+    <div class="container ">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">
+            About the Application
+          </h5>
+          <p class="grey-text text-lighten-4">
+           A simple todo list app created using HTML, Materialize CSS and JavaScript.
+          </p>
+  
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Tech Stacks Used</h5>
+          <ul>
+            <li>
+              <a class="grey-text text-lighten-3" href="https://github.com/naveenkumar-j" target="_blank">
+                HTML
+              </a>
+            </li>
+            <li>
+              <a class="grey-text text-lighten-3" href="https://github.com/naveenkumar-j" target="_blank">
+                Materialize CSS
+              </a>
+            </li>
+            <li>
+              <a class="grey-text text-lighten-3" href="https://github.com/naveenkumar-j" target="_blank">
+                JavaScript
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright green darken-3">
+      <div class="container ">
+        © 2022 Copyright All Rights reserved
+        <a class="grey-text text-lighten-4 right" href="#">
+          Go to Top
+        </a>
+      </div>
+    </div>
+  </footer>
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>     
+    <script src="app.js"></script>       
+</body>
+</html>
