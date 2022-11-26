@@ -32,10 +32,10 @@ A simple todo list app created using HTML, Materialize CSS and JavaScript.
 
 ## Available Modules:
 
-1. Add Task
-2. Filter Task
+1. Add a Task
+2. Filter a Task
 3. Delete a Task
-4. Clear all Task
+4. Clear all Tasks
 
 ## Project Demo:
 https://user-images.githubusercontent.com/70682152/204069807-98520248-91d5-441a-956f-b3281fa65137.mp4
