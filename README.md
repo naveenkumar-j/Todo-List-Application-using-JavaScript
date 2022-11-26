@@ -27,11 +27,10 @@
 		</table>
 	</center>
 
-## About Features:
+## About Project:
 A simple todo list app created using HTML, Materialize CSS and JavaScript.
 
-## Available Modules:
-
+## Available Features:
 1. Add a Task
 2. Filter a Task
 3. Delete a Task
