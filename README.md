@@ -1,4 +1,4 @@
-<h1 align="center">Todo List Application</h1> 
+<h1 align="center" id="app">Todo List Application</h1> 
 <h4 align="center"><a href="https://naveenkumar-j.github.io/Todo-List-Application-using-JavaScript/" target="_blank">Live Preview</a></h4> 
 
 - ### Tech Stack used:
@@ -12,7 +12,7 @@
 					</td>
 					<td width="25%" align="center">
 						<span><strong>Materialize</strong></span><br/>
-						<img height="64px" width="64px" src="https://github.com/prplx/svg-logos/blob/master/svg/materialize.svg">
+						<img height="64px" width="64px" src="https://github.com/prplx/svg-logos/blob/master/svg/Materialize.svg">
 					</td>
           <td width="25%" align="center">
 						<span><strong>JavaScript</strong></span><br/>
@@ -40,6 +40,6 @@ A simple todo list app created using HTML, Materialize CSS and JavaScript.
 https://user-images.githubusercontent.com/70682152/204069807-98520248-91d5-441a-956f-b3281fa65137.mp4
 
 <div align="right">
-    <b><a href="#">↥ back to top</a></b>
+    <b><a href="#app">↥ back to top</a></b>
 </div>
 
